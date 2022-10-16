@@ -8,6 +8,15 @@ from Bot import mises, session_prompt
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
+st.title('Counter Example')
+if 'count' not in st.session_state:
+    st.session_state.count = 0
+
+increment = st.button('Increment')
+if increment:
+    st.session_state.count += 1
+
+st.write('Count = ', st.session_state.count)
 
 start_sequence = "\nAI:"
 restart_sequence = "\n\Humano:"

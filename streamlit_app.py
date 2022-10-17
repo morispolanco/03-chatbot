@@ -58,8 +58,7 @@ selected = streamlit_menu(example=EXAMPLE_NO)
 
 if selected == "Home":
     st.title(f"Diviapps.com")
-    st.para
 if selected == "Projects":
-    st.title(f"[DIVIAPPS.COM](https://diviapps.com)")
+    st.markdown("[ARJE APPS](https://arjeapp.com)")
 if selected == "Contact":
     st.title(f"You have selected {selected}")

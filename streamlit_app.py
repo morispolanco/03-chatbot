@@ -57,7 +57,8 @@ def streamlit_menu(example=1):
 selected = streamlit_menu(example=EXAMPLE_NO)
 
 if selected == "Home":
-    st.title(f"Diviapps.com")
+    st.title("Diviapps.com")
+    st.markdown("Somos una empresa dedicada a la creación de herrammientas de inteligencia artificial de procesamento de lenguaje natural")
 if selected == "Projects":
     st.markdown("[ARJE APPS](https://arjeapp.com)")
 if selected == "Contact":

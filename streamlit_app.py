@@ -59,6 +59,6 @@ selected = streamlit_menu(example=EXAMPLE_NO)
 if selected == "Home":
     st.title(f"Diviapps.com")
 if selected == "Projects":
-    st.title(f"Enologo {enologo/app.py}")
+    st.title(f"Arje Apps ")
 if selected == "Contact":
     st.title(f"You have selected {selected}")
